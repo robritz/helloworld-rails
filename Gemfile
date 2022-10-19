@@ -29,6 +29,7 @@ end
 
 group :production do
   gem 'pg', '1.4.4'
+  gem 'psych', '< 4'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
