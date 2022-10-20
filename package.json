@@ -1,7 +1,4 @@
 {
-  "scripts": {
-    "start": "NODE_OPTIONS=--openssl-legacy-provider yarn-run-all ..."
-  },
   "dependencies": {
     "@rails/webpacker": "5.4.3",
     "webpack": "^4.46.0",
@@ -9,5 +6,8 @@
   },
   "devDependencies": {
     "webpack-dev-server": "^3"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
